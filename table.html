@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table</title>
+
+	<style type="text/css">
+		
+		.nav{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: black;
+			overflow: hidden;
+			}
+
+			li{
+				float: left;
+
+
+			}
+
+		li a{
+			font-size: 30px;
+			padding:35px;
+			text-decoration: none;
+			color: white;
+			display: block;
+			text-align: center;
+		}
+
+		li a:hover{
+			background-color: red;
+		}
+
+	</style>
+
+<style type="text/css">
+
+	
+	.par{
+		margin: 20px 15px;
+		color: blue;
+		font-weight: 20px;
+		font-family: arial;
+	}
+
+	.red{
+		padding: 20px 10px;
+		margin: 10px 5px;
+	}
+
+
+</style>
+</head>
+<body>
+	<h1 class="par">Heading 1st</h1>
+
+<table border="1" width="50%" style="border-collapse: collapse;">
+		<tr>
+			<th>Name</th>
+			<th>Mobile no.</th>
+		</tr>
+
+		<tr>
+			<td rowspan="2">Prashant</td>
+			<td>9845455</td>
+			
+		</tr>
+
+		<tr>
+			<td>98236666</td>
+		</tr>
+
+		<tr>
+			<td rowspan="2">Sushan</td>
+			<td>98001212</td>
+			
+		</tr>
+
+		<tr>
+			<td>98247455</td>
+		</tr>
+
+
+		<tr>
+			<th colspan="2">Total</th>
+		</tr>
+		
+</table>
+
+<!--hr  tag is used for making horizontal line -->
+
+<hr>
+	<p class="par">
+		<a style="font-size: 20px; background-color: red; color: white;">a<sup>2</sup> - b<sup>2</sup> = (a+b) (a-b)</a>
+	</p>
+
+</hr>
+
+<div class="red">
+
+	<h2>Hello World</h2>
+</div>
+	
+	<div class="list">
+		<h2>Unordered List</h2>
+
+		<ul>
+			<li>Coffee</li>
+			<li>Tea</li>
+			<li>Cold Drink</li>
+
+		<ol start=50>
+			<li>Capppucino</li>
+			<li>Latte</li>
+			<li>Lemon Tea</li>
+		</ol>
+
+
+		<ol type="I">
+
+			<li>Capppucino
+					<ul style="list-style-type: square;">
+						<li>Capppucino</li>
+						<li>Latte</li>
+						<li>Lemon Tea</li>
+
+					</ul>
+			</li>
+			<li>Latte</li>
+			<li>Lemon Tea</li>
+		</ol>
+
+		</ul>
+
+
+	</div>
+
+	<h2>Onordered List with a</h2>
+
+		<ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact</a></li>
+	
+
+		</ul>
+
+	
+
+
+
+</body>
+</html>

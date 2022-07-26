@@ -1,0 +1,62 @@
+body{
+
+	 margin: 0;
+	 padding: 0;
+	/*background-image: url('Akatsuki.jpg');
+	 background-size: cover; */
+	 
+
+}
+
+
+.nav{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: black;
+			overflow: hidden;
+
+
+	}
+
+			li{
+				float: left;
+
+
+			}
+
+		li a{
+			font-family: sans-serif;
+			font-size: 28px;
+			padding:35px;
+			text-decoration: none;
+			color: white;
+			display: block;
+			text-align: center;
+		}
+
+		li a:hover{
+			background-color: red;
+			transition: 1.0s;
+			
+		}
+
+.par{
+		margin: 20px 15px;
+		color: blue;
+		font-weight: 20px;
+		font-family: arial;
+	}
+
+	.red{
+		padding: 20px 10px;
+		margin: 10px 5px;
+	}
+
+.full-width{
+
+	width: 50%;
+
+	
+}
+
