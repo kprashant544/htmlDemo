@@ -6,33 +6,87 @@
 	<title>Index Page</title>
 	<link rel="stylesheet" href="CSS/style.css">
 
-	
+	<script src="JS/external.js"></script>
 
 </head>
 <body>
 
-
-	<h2>Onordered List with a</h2>
 
 		<ul class="nav">
 			<li><a href="index.html">Home</a></li>
 			<li><a href="aboutus.html">About Us</a></li>
 			<li><a href="services.html">Services</a></li>
 			<li><a href="contact.html">Contact</a></li>
-
 		</ul>
 
-	<h2>Image Example</h2>
 
-
-
-	<div>
+	<div class="center">
 		<img src="Images/4K-viper.jpg" alt="My Image" width="100%">
 
-		<img class="full-width" src="Images/Talkischeap.jpg" alt="My Image">
-	</div>
+		</div>
 
 
+<h2 style="text-align: center;">Form Example</h2>
+
+<form class="post" action="#">
+
+	
+	<label>Username:</label>
+	<input type="text" name="user_name" placeholder="Enter your Username" value="">
+	<br> 
+
+	<label>Email:</label>
+	<input type="email" name="email" placeholder="Enter your Email" value="">
+	<br>
+
+	<label>Password:</label>
+	<input type="password" name="Password" placeholder="Enter your Password" value="">
+	<br>
+
+	<label>Date of Birth</label>
+	<input type="date" name="date" value="Date">
+	<br>
+	<label>Role:</label>
+	<select name="role" id="role">
+		<option >-- Choose Role--</option>
+		<option value="SuperAdmin">Super Admin</option>
+		<option value="Admin">Admin</option>
+		<option value="User">User</option>
+	</select>
+
+	<br>
+	<label>Gender:</label>
+	<input type="radio" name="gender">Male
+	<input type="radio" name="gender">Female
+
+	<br>
+	<label>Skills:</label>
+	<input type="checkbox" name="skill" value="HTML">HTML
+	<input type="checkbox" name="skill" value="CSS">CSS
+	<input type="checkbox" name="skill" value="JavaScript">JavaScript
+	<input type="checkbox" name="skill" value="PHP">PHP
+	<br>
+
+
+	<label>Remarks:</label>
+	<textarea name="Remarks" id="Remarks" rows="4"></textarea><br>
+
+	<button class="btn" type="submit">Submit</button>
+	<button class="btn1" type="reset">Reset</button>
+
+
+
+</form>
+
+
+
+<p id="current_date"></p>
+
+<button id="displayDate" onclick="getDate()">Click to get Current date</button>
+<script type="text/javascript">
+	
+
+</script>
 
 </body>
 </html>

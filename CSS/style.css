@@ -7,6 +7,13 @@ body{
 	 
 
 }
+.center{
+
+
+	
+
+	
+}
 
 
 .nav{
@@ -33,6 +40,7 @@ body{
 			color: white;
 			display: block;
 			text-align: center;
+
 		}
 
 		li a:hover{
@@ -60,3 +68,71 @@ body{
 	
 }
 
+/*input{
+
+	width: 100%;
+
+}
+*/
+
+.btn{
+
+	border-radius: 8px;
+	padding: 2px;
+
+}
+
+.btn:hover{
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+
+	
+
+}
+
+
+
+.post{
+	font-size: 20px;
+	color: white;
+	font-family:serif;
+	/*background-image: url('../Images/panda.jpg');*/
+	background-repeat: no-repeat;
+	background-color: red;
+	
+}
+
+.btn1{
+
+
+	border-radius: 8px;
+	padding: 2px;
+}
+
+.btn1:hover{
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+
+	
+
+}
+
+input:hover{
+
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-color: lightskyblue ;
+
+
+}
+
+form{
+
+	text-align: center;
+}
