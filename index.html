@@ -32,19 +32,19 @@
 
 	
 	<label>Username:</label>
-	<input type="text" name="user_name" placeholder="Enter your Username" value="">
+	<input type="text" name="user_name" id="username" placeholder="Enter your Username" value="">
 	<br> 
 
 	<label>Email:</label>
-	<input type="email" name="email" placeholder="Enter your Email" value="">
+	<input type="email" name="email" id="email" placeholder="Enter your Email" value="">
 	<br>
 
 	<label>Password:</label>
-	<input type="password" name="Password" placeholder="Enter your Password" value="">
+	<input type="password" name="Password" id="password" placeholder="Enter your Password" value="">
 	<br>
 
 	<label>Date of Birth</label>
-	<input type="date" name="date" value="Date">
+	<input type="date" name="date" id="date_of_birth" value="Date">
 	<br>
 	<label>Role:</label>
 	<select name="role" id="role">
@@ -82,11 +82,29 @@
 
 <p id="current_date"></p>
 
-<button id="displayDate" onclick="getDate()">Click to get Current date</button>
-<script type="text/javascript">
-	
+<button class="hello" id="displayDate" onclick="getDate()">Click to get Current date</button>
 
-</script>
+<p id="your_username"></p>
+
+<button class="name1" id="displayUsername" onclick="getUsername()">Click to get your Username</button>
+
+
+<p id="your_email"></p>
+
+<button class="email" id="displayEmail" onclick="getEmail()">Click to get your E-mail</button>
+
+<p id="your_password"></p>
+
+<button class="pwd" id="displayPassword" onclick="getPassword()">Click to show your password</button>
+
+<p id="your_dob"></p>
+
+<button class="dates" id="displayDOB" onclick="getDOB()">Click to get your Date of birth</button>
+
+
+<p id="your_role"></p>
+
+<button class="rolling" id="displayRole" onclick="getRole()">Click to get your role</button>
 
 </body>
 </html>

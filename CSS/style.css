@@ -7,13 +7,6 @@ body{
 	 
 
 }
-.center{
-
-
-	
-
-	
-}
 
 
 .nav{
@@ -135,4 +128,57 @@ input:hover{
 form{
 
 	text-align: center;
+}
+
+.hello,.name1,.email,.pwd,.dates,.rolling{
+
+	margin-left: 10px;
+}
+
+.hello:hover{
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+
+}
+
+.name1:hover{
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+
+}
+
+.email:hover{
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+
+}
+
+.pwd:hover{
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+
+}
+
+.dates:hover{
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+
+}
+
+.rolling:hover{
+	border-radius: 6px;
+	cursor: pointer;
+	color: white;
+	background-color: blue;
+
 }
