@@ -16,7 +16,6 @@ body{
 			background-color: black;
 			overflow: hidden;
 
-
 	}
 
 			li{
@@ -33,6 +32,7 @@ body{
 			color: white;
 			display: block;
 			text-align: center;
+			float: right;
 
 		}
 
@@ -130,7 +130,7 @@ form{
 	text-align: center;
 }
 
-.hello,.name1,.email,.pwd,.dates,.rolling{
+.hello,.name1,.email,.pwd,.dates,.rolling,.per{
 
 	margin-left: 10px;
 }

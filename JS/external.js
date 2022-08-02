@@ -45,7 +45,7 @@
 	function getPassword()
 		{
 			var password= document.getElementById("password").value;
-			console.log(password)
+			console.log(password);
 			document.getElementById("your_password").innerHTML = "Your Password is : " +password;
 
 		}
@@ -56,7 +56,7 @@
 	function getDOB()
 	{
 		var date_of_birth= document.getElementById("date_of_birth").value;
-		console.log(date_of_birth)
+		console.log(date_of_birth);
 		document.getElementById("your_dob").innerHTML = "Your DOB is : " +date_of_birth;
 
 	}
@@ -65,9 +65,41 @@
 	function getRole()
 	{
 		var role= document.getElementById("role").value;
-		console.log(role)
+		console.log(role);
 		document.getElementById("your_role").innerHTML = "Your role is : " +role;
 
 	}
+
+
+
+;
+
+
+function getPersonData()
+	{
+			 const person = {
+
+			 	name : "Prashant" ,
+			 	age : 20 ,
+			 	gender : "Male" ,
+			 	weight : 57 
+
+			 };
+
+			document.getElementById("getPerson").innerHTML = "Your name is : <b>" +person.name +
+			"</b><br> Your age is <b>" + person.age +
+			"</b><br> Your gender is <b>" + person.gender+
+			"</b><br> Your weight is <b>" + person.weight
+
+	}
+
+
+
+	let car = ["BMW","Audi","Lamborgini"];
+	console.log(car[1]);
+	car.length();
+
+
+
 
 
