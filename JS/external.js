@@ -96,9 +96,69 @@ function getPersonData()
 
 
 	let car = ["BMW","Audi","Lamborgini"];
-	console.log(car[1]);
-	car.length();
+	/*console.log(car[1]);
+	car.length();*/
 
+
+	function displayMessage() 
+	{
+		
+		var age= document.getElementById("age").value;
+		
+		if (age>18) 
+		{
+				console.log(age)
+				var message ="Eligible for Vote"
+				
+		}
+		else{
+				var message ="Not eligible for Vote"
+		}
+
+		alert(message)
+		document.getElementById("message").innerHtml =message;
+
+	}
+
+
+	let day;
+	console.log(new Date().getDay())
+	switch(new Date().getDay())
+	{
+		case 0:
+		day = "Sunday";
+		break;
+		case 1:
+		day = "Monday";
+		break;
+		case 2:
+		day = "Tuesday";
+		break;
+		case 3:
+		day = "Wednesday";
+		break;
+		case 4:
+		day = "Thursday";
+		break;
+		case 5:
+		day = "Friday";
+		break;
+		case 6:
+		day = "Saturday";
+
+	}
+	alert("Today is "+day)
+	document.getElementById("day").innerHTML= "Today is" +day;
+	//console.log(day);
+
+
+function displayName5FiveTimes()
+{
+	for (var i = 1; i <= 5; i++) 
+	{
+		alert("Loop " + i);
+	}
+}
 
 
 
